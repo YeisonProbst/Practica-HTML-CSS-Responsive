@@ -12,7 +12,6 @@ body{
     background-color: rgb(73, 73, 73);
     overflow: hidden;
     grid-template-rows: 1fr 1fr;
-    box-shadow: 0px 0px 2px rgb(84, 252, 106);
 }
 
 /**Redes Sociales**/
@@ -59,5 +58,48 @@ body{
     font-size: 30px;
 }
 /**fin Logo**/
-
 /**fin el Header**/
+
+/** Inicio del Main**/
+
+/**inicio de Imagen de Portada**/
+.img-portada{
+height: 350px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(/img/portada.png);
+/*background-image: url(1.jpg);*/
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: cover;
+/*filter: brightness(0.5);*/
+text-align: center;
+color: rgb(255, 255, 255);
+overflow: hidden;
+}
+
+
+.text-img{
+    text-align: center;
+    display: block;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.p-img-salto{
+    margin-top: 260px;
+    color: rgb(231, 231, 231);
+}
+/**fin imagen de portada**/
+
+
+/**inicio section Articulos **/
+
+
+/**fin section Articulos **/
+
+
+
+
+
+
+/** **/
+/** fin main**/
